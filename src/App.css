@@ -1,0 +1,61 @@
+/* External */
+.external {
+	position: relative;
+	width: 1440px;
+	height: 1024px;
+	background: #FFFFFF;
+}
+/* Frame */
+.frame {
+	position: absolute;
+	width: 1216px;
+	height: 1024px;
+	left: 224px;
+	top: 0px;
+	background: #FAFAFB;
+}
+/* Group */
+.frame .group {
+	position: absolute;
+	width: 128px;
+	height: 40px;
+	left: 1056px;
+	top: 24px;
+}
+/* Vector */
+.frame .group .vector {
+	position: absolute;
+	width: 10px;
+    height: 10px;
+    left: 105px;
+    top: 16px;
+	background: url('https://i.ibb.co/wwgWXz8/drop-down-arrow-1-1.png');
+}
+/* Text */
+.frame .group .text {
+	position: absolute;
+	width: 103px;
+	height: 20px;
+	left: 0px;
+	top: 10px;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	text-align: right;
+	color: #09112E;
+	cursor: pointer;
+}
+/* Header */
+.frame .header {
+	position: absolute;
+	width: 476px;
+	height: 32px;
+	left: 32px;
+	top: 104px;
+	font-family: Arial;
+	font-size: 28px;
+	line-height: 40px;
+	color: #09112E;
+}

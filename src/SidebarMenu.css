@@ -1,0 +1,152 @@
+/* Menu */
+.menu {
+	position: absolute;
+	width: 224px;
+	height: 1024px;
+	left: 0px;
+	top: 0px;
+	background: #FFFFFF;
+}
+/* First Navigation */
+.menu .first-nav {
+	position: absolute;
+	width: 224px;
+	height: 56px;
+	left: 0px;
+	top: 200px;
+    background: #FAFAFB;
+    cursor: pointer;
+}
+/* Rectangle */
+.menu .first-nav .rectangle {
+	position: absolute;
+	left: 0%;
+	right: 97.32%;
+	top: 0%;
+	bottom: 0%;
+	background: #2345C7;
+	opacity: 0.2;
+}
+/* Text */
+.menu .first-nav .text {
+	position: absolute;
+	height: 20px;
+	left: 34px;
+	right: 18px;
+	top: calc(50% - 20px/2 + 1px);
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	color: #2345C7;
+}
+/* Logo */
+.menu .logo {
+	position: absolute;
+	width: 64px;
+	height: 64px;
+	left: 32px;
+	top: 32px;
+	background: url('https://i.ibb.co/7YGD2ZG/Blue.png');
+}
+/* Second Navigation */
+.menu .second-nav {
+	position: absolute;
+	width: 224px;
+	height: 56px;
+	left: 0px;
+	top: 256px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+/* Rectangle */
+.menu .second-nav .rectangle {
+	position: absolute;
+	left: 0%;
+	right: 97.32%;
+	top: 0%;
+	bottom: 0%;
+	background: #E6E7EA;
+	opacity: 0.2;
+}
+/* Text */
+.menu .second-nav .text {
+	position: absolute;
+	height: 20px;
+	left: 34px;
+	right: 18px;
+	top: calc(50% - 20px/2 + 1px);
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	color: #09112E;
+}
+/* Third Navigation */
+.menu .third-nav {
+	position: absolute;
+	width: 224px;
+	height: 56px;
+	left: 0px;
+	top: 312px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+/* Rectangle */
+.menu .third-nav .rectangle {
+	position: absolute;
+	left: 0%;
+	right: 97.32%;
+	top: 0%;
+	bottom: 0%;
+	background: #E6E7EA;
+	opacity: 0.2;
+}
+/* Text */
+.menu .third-nav .text {
+	position: absolute;
+	height: 20px;
+	left: 34px;
+	right: 18px;
+	top: calc(50% - 20px/2 + 1px);
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	color: #09112E;
+}
+/* Support */
+.menu .support {
+	position: absolute;
+	width: 224px;
+	height: 64px;
+	left: 0px;
+	top: 960px;
+}
+/* Text */
+.menu .support .text {
+	position: absolute;
+	left: 15.18%;
+	right: -4.02%;
+	top: 23.44%;
+	bottom: 23.44%;
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 16px;
+	color: #09112E;
+}
+.menu .support .text a {
+    color: #2345C7;
+    cursor: pointer;
+}
+/* Border */
+.menu .support .border {
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+}

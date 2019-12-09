@@ -1,0 +1,117 @@
+/* Tabs */
+.tabs {
+	position: absolute;
+	width: 1152px;
+	height: 28px;
+	left: 32px;
+	top: 160px;
+}
+/* Section 1 */
+.tabs .section-1 {
+	position: absolute;
+	left: 0%;
+	right: 84.72%;
+	top: 0%;
+	bottom: 0%;
+}
+/* Section Name */
+.tabs .section-1 .section-name {
+	position: absolute;
+	left: 0%;
+	right: 84.72%;
+	top: 0%;
+	bottom: 42.86%;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 40px;
+    width: 100%;
+}
+/* Section 2 */
+.tabs .section-2 {
+	position: absolute;
+	left: 15.28%;
+	right: 69.44%;
+	top: 0%;
+	bottom: 0%;
+}
+/* Section Name */
+.tabs .section-2 .section-name {
+	position: absolute;
+	left: 15.28%;
+	right: 69.44%;
+	top: 0%;
+	bottom: 42.86%;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 40px;
+    width: 100%;
+}
+/* Section 3 */
+.tabs .section-3 {
+	position: absolute;
+	left: 30.56%;
+	right: 57.12%;
+	top: 0%;
+	bottom: 0%;
+}
+/* Section Name */
+.tabs .section-3 .section-name {
+	position: absolute;
+	left: 30.56%;
+	right: 57.12%;
+	top: 0%;
+	bottom: 42.86%;
+	font-family: Arial;
+	font-size: 16px;
+    line-height: 40px;
+    width: 100%;
+}
+/* Section 4 */
+.tabs .section-4 {
+	position: absolute;
+	left: 42.88%;
+	right: 41.84%;
+	top: 0%;
+	bottom: 0%;
+}
+/* Section Name */
+.tabs .section-4 .section-name {
+	position: absolute;
+	left: 42.88%;
+	right: 41.84%;
+	top: 0%;
+	bottom: 42.86%;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 40px;
+    width: 100%;
+}
+/* Line */
+.tabs .line {
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 100%;
+	bottom: 0%;
+	border: 1px solid #E0E0E0;
+}
+.tabs .section-name .active > a {
+    color: #09112E;
+}
+.tabs .section-name > a {
+	color: #9295A0;
+    text-decoration: none;
+}
+.tabs .section-name > a:hover {
+	color: #09112E;
+}
+/* Coloured Line */
+.active .colored-line {
+	position: absolute;
+	left: 0%;
+	right: 57.12%;
+	top: 172%;
+	bottom: 0%;
+	border: 1px solid #2345C7;
+	width: 100%;
+}
